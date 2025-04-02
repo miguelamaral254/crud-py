@@ -1,3 +1,10 @@
+# crud-py
+Crud basico para disciplina de Banco de dados NoSQL
+
+
+
+Como ultilizar?
+
  python3 -m venv venv           
  source venv/bin/activate       
  pip install -r requirements.txt
