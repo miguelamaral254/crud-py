@@ -6,7 +6,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # Definindo os endpoints da API
-api.add_resource(ContactController, '/contacts', '/contacts/<string:name>')
+api.add_resource(ContactController, '/contacts', '/contacts/<string:contact_id>')
 
 if __name__ == '__main__':
     app.run(debug=True)
